@@ -37,5 +37,5 @@ print("Addition: ", cal.adder())
 print("Subtraction: ", cal.subtractor())
 print("Multiplication: ", cal.multiplier())
 print("Division: ", cal.divider())
-cal.clear()
-print(cal.first, cal.sec)
+cal.clear() #clear the calculator
+print(cal.first, cal.second)
