@@ -29,9 +29,10 @@ class Calculator:
 firstNumber = int(input("Enter first number: "))
 secondNumber = int(input("Enter second number: "))
 
+#create a variable to pass in the parameters needed in the class calculator
 cal = Calculator(firstNumber, secondNumber)
 
-#Print
+#Print the different types of calculation
 print("Addition: ", cal.adder())
 print("Subtraction: ", cal.subtractor())
 print("Multiplication: ", cal.multiplier())
